@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cozy Beats</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* src/index.css - Definición de variables CSS para la paleta de colores */
+      :root {
+        --color-fondo-suave: #ebeee0; /* Ivory*/
+        --color-borde-claro: #e0e0e0; /* Gris muy claro para bordes */
+        --color-texto-oscuro: #222222; /* Negro suave para texto principal */
+        --color-texto-claro: #666666; /* Gris para texto secundario */
+
+        /* Colores Pastel Desaturados */
+        --color-pastel-rosa: #f0d9e5; /* Rosa empolvado */
+      }
+
+      body {
+        font-family: 'Inter', sans-serif;
+        margin: 0;
+        background-color: var(--color-fondo-suave);
+        color: var(--color-texto-oscuro);
+      }
+
+      /* Clases de Tailwind personalizadas para usar las variables CSS */
+      .bg-fondo-suave {
+        background-color: var(--color-fondo-suave);
+      }
+      .border-borde-claro {
+        border-color: var(--color-borde-claro);
+      }
+      .text-texto-oscuro {
+        color: var(--color-texto-oscuro);
+      }
+      .text-texto-claro {
+        color: var(--color-texto-claro);
+      }
+      .bg-pastel-rosa {
+        background-color: var(--color-pastel-rosa);
+      }
+
+      /* Fuente del titulo de la página en el navbar*/
+      .press-start-2p-regular {
+        font-family: 'Press Start 2P';
+        font-weight: 400;
+        font-style: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
