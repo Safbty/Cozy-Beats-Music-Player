@@ -8,7 +8,7 @@ const TarjetaCancion = ({ cancion }: TarjetaCancionProps) => {
   return (
     <div className="flex items-center gap-4 p-4 border border-borde-claro rounded-lg bg-white shadow-sm">
       <img
-        src={cancion.imagenURL}
+        src={cancion.imagenUrl}
         alt={`Portada de ${cancion.titulo}`}
         className="w-16 h-16 rounded-md object-cover"
       />

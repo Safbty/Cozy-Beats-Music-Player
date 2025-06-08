@@ -3,7 +3,7 @@ export type Cancion = {
   titulo: string;
   artista: string;
   duracion: string;
-  imagenURL: string;
+  imagenUrl: string;
 };
 
 export const mockCancionesRecientes: Cancion[] = [
@@ -12,7 +12,7 @@ export const mockCancionesRecientes: Cancion[] = [
     titulo: 'Awakening',
     artista: 'j´san',
     duracion: '3:42',
-    imagenURL:
+    imagenUrl:
       'https://fastly.picsum.photos/id/857/200/200.jpg?hmac=HAtw8t8dR2kLoj5Y-AUwqz3BWYUX9bLv16LyNN8dEBY',
   },
   {
@@ -20,7 +20,7 @@ export const mockCancionesRecientes: Cancion[] = [
     titulo: 'Snowstalgia',
     artista: 'Invention_',
     duracion: '3:05',
-    imagenURL:
+    imagenUrl:
       'https://fastly.picsum.photos/id/676/200/200.jpg?hmac=hgeMQEIK4Mn27Q2oLRWjXo1rgxwTbk1CnJE954h_HyM',
   },
   {
@@ -28,7 +28,7 @@ export const mockCancionesRecientes: Cancion[] = [
     titulo: 'Castle',
     artista: 'Lukrembo',
     duracion: '3:01',
-    imagenURL:
+    imagenUrl:
       'https://fastly.picsum.photos/id/1040/200/200.jpg?hmac=l5Cp_plxzlfQobWWyd5uqBPiqjX1CApBpWP3w8DzYK0',
   },
   {
@@ -36,15 +36,15 @@ export const mockCancionesRecientes: Cancion[] = [
     titulo: 'Dreaming',
     artista: 'Lee',
     duracion: '4:45',
-    imagenURL:
+    imagenUrl:
       'https://fastly.picsum.photos/id/421/200/200.jpg?hmac=Kix073-H73pkRedH4XJ8fenHLI9Sd9akWlOFjKog0EA',
   },
   {
     id: '5',
     titulo: 'Soulful',
-    artista: 'L´indécis',
+    artista: 'Lindécis',
     duracion: '3:41',
-    imagenURL:
+    imagenUrl:
       'https://fastly.picsum.photos/id/164/200/200.jpg?hmac=UA4QhIt441pdFJ6Uam2yCxzda_KjWgQgy8fYs_-NFEM',
   },
   {
@@ -52,7 +52,7 @@ export const mockCancionesRecientes: Cancion[] = [
     titulo: 'New Home (Slowed)',
     artista: 'Austin Farwell',
     duracion: '2:55',
-    imagenURL:
+    imagenUrl:
       'https://fastly.picsum.photos/id/946/200/200.jpg?hmac=a01jNqgHjp0Vj_csHXBpEttrSyo1vFrUTL1fwgKYG0Y',
   },
   {
@@ -60,7 +60,7 @@ export const mockCancionesRecientes: Cancion[] = [
     titulo: 'I Wish It Would Never Stop Snowing',
     artista: 'Sleepy Fish',
     duracion: '3:17',
-    imagenURL:
+    imagenUrl:
       'https://fastly.picsum.photos/id/726/200/200.jpg?hmac=W7sB7Apj0ousj_seKHvFyR4r0Hw0RGFP86_KqHSqe0s',
   },
 ];
@@ -71,7 +71,7 @@ export const mockCancionesPopulares: Cancion[] = [
     titulo: 'Sakura Trees',
     artista: 'Saib',
     duracion: '1:41',
-    imagenURL:
+    imagenUrl:
       'https://fastly.picsum.photos/id/82/200/200.jpg?hmac=ATNAhTLN2dA0KmTzSE5D9XiPe3GMX8uwxpFlhU7U5OY',
   },
   {
@@ -79,7 +79,7 @@ export const mockCancionesPopulares: Cancion[] = [
     titulo: 'You',
     artista: 'Cocabona',
     duracion: '2:50',
-    imagenURL:
+    imagenUrl:
       'https://fastly.picsum.photos/id/823/200/200.jpg?hmac=zD0Ti1kYqMOUsfNVS7xtDou-2ECcI0RXYs18C54EdYo',
   },
   {
@@ -87,7 +87,7 @@ export const mockCancionesPopulares: Cancion[] = [
     titulo: 'Nautilus',
     artista: 'WYS',
     duracion: '2:50',
-    imagenURL:
+    imagenUrl:
       'https://fastly.picsum.photos/id/446/200/200.jpg?hmac=PkaLcCtgL4IvAz-gsxbCXz_tl0qdVUGOrxhYLrywa-c',
   },
   {
@@ -95,7 +95,7 @@ export const mockCancionesPopulares: Cancion[] = [
     titulo: 'Head Above Water',
     artista: 'GLASWING',
     duracion: '3:18',
-    imagenURL:
+    imagenUrl:
       'https://fastly.picsum.photos/id/881/200/200.jpg?hmac=34beeNIxYSbYK-_PTy_YXvWyn11npGQSygCM7hjOUFo',
   },
   {
@@ -103,7 +103,7 @@ export const mockCancionesPopulares: Cancion[] = [
     titulo: 'Letting Go',
     artista: 'Potsu',
     duracion: '3:19',
-    imagenURL:
+    imagenUrl:
       'https://fastly.picsum.photos/id/661/200/200.jpg?hmac=pTRumV7JHMWLu9tuOU6quaMWqF-oxcymEOAvPNfXG4I',
   },
   {
@@ -111,7 +111,7 @@ export const mockCancionesPopulares: Cancion[] = [
     titulo: 'City Lounge',
     artista: 'Saib',
     duracion: '2:39',
-    imagenURL:
+    imagenUrl:
       'https://fastly.picsum.photos/id/249/200/200.jpg?hmac=75zqoHvrxGGVnJnS8h0gUzZ3zniIk6PggG38GjmyOto',
   },
   {
@@ -119,7 +119,7 @@ export const mockCancionesPopulares: Cancion[] = [
     titulo: 'Take Me Somewhere Far Away from Here',
     artista: 'Seto',
     duracion: '3:17',
-    imagenURL:
+    imagenUrl:
       'https://fastly.picsum.photos/id/1083/200/200.jpg?hmac=ocBiYtawFGXm884DNfTBRQy65ZWvsTQf_XCnlTUdtB4',
   },
 ];
@@ -130,7 +130,7 @@ export const mockCancionesNuevas: Cancion[] = [
     titulo: 'Changes',
     artista: 'Rosemary Beats',
     duracion: '1:58',
-    imagenURL:
+    imagenUrl:
       'https://fastly.picsum.photos/id/239/200/200.jpg?hmac=8JqlXUpZ9Xy0H6tMK8sCPQAYU9vUn9Qa8Kg-U9h3sCY',
   },
   {
@@ -138,7 +138,7 @@ export const mockCancionesNuevas: Cancion[] = [
     titulo: 'Field Of Daisies',
     artista: 'Brian Stiroh',
     duracion: '3:19',
-    imagenURL:
+    imagenUrl:
       'https://fastly.picsum.photos/id/468/200/200.jpg?hmac=ebOvOZemklGsjJmYIRJ4_YWUDCNNpt5bE0B7EjYJfEA',
   },
   {
@@ -146,7 +146,7 @@ export const mockCancionesNuevas: Cancion[] = [
     titulo: 'Drive',
     artista: 'Pacific',
     duracion: '3:07',
-    imagenURL:
+    imagenUrl:
       'https://fastly.picsum.photos/id/555/200/200.jpg?hmac=SPdHg_AxaDTFgZCoJymemxudcniLOiP2P5k6T8Eb-kc',
   },
   {
@@ -154,7 +154,7 @@ export const mockCancionesNuevas: Cancion[] = [
     titulo: 'Autumn Morning',
     artista: 'Softy',
     duracion: '3:41',
-    imagenURL:
+    imagenUrl:
       'https://fastly.picsum.photos/id/652/200/200.jpg?hmac=m_Z74HS-9l6n785rv5t2r3riTmdwuq-Z0rMJz9iHg5g',
   },
   {
@@ -162,7 +162,7 @@ export const mockCancionesNuevas: Cancion[] = [
     titulo: 'Moving On',
     artista: 'Nymano',
     duracion: '3:12',
-    imagenURL:
+    imagenUrl:
       'https://fastly.picsum.photos/id/588/200/200.jpg?hmac=amAMbyBq8ZvuCFGI8jPIt928PLIRtxNQ33bISsbDAys',
   },
   {
@@ -170,7 +170,7 @@ export const mockCancionesNuevas: Cancion[] = [
     titulo: 'Time Out',
     artista: 'Space Windu',
     duracion: '2:12',
-    imagenURL:
+    imagenUrl:
       'https://fastly.picsum.photos/id/883/200/200.jpg?hmac=evNCTcW3jHI_xOnAn7LKuFH_YkA8r6WdQovmsyoM1IY',
   },
   {
@@ -178,7 +178,7 @@ export const mockCancionesNuevas: Cancion[] = [
     titulo: 'Good Night',
     artista: 'No Spirit',
     duracion: '3:00',
-    imagenURL:
+    imagenUrl:
       'https://fastly.picsum.photos/id/723/200/200.jpg?hmac=_sO25hgEAx99R1W5nOFsCmrSDTpHGmXIEXDywKpjfXE',
   },
 ];
@@ -189,15 +189,15 @@ export const mockCancionesFavoritas: Cancion[] = [
     titulo: 'Blue Haze',
     artista: 'Jinsang',
     duracion: '2:38',
-    imagenURL:
-      'https://fastly.picsum.photos/id/501/200/200.jpg?hmac=tKXe69j4tHhkAA_Qc3XinkTuubEWwkFVhA9TR4TmCG8',
+    imagenUrl:
+      'https://fastly.picsum.photos/id/384/200/200.jpg?hmac=TAsUnIQnfLj13hjjp8604_rXNHrqCGlB2K8UQoWt1aM',
   },
   {
     id: 'f2',
     titulo: 'Perfect Day',
     artista: 'Tundra Beats',
     duracion: '4:15',
-    imagenURL:
+    imagenUrl:
       'https://fastly.picsum.photos/id/65/200/200.jpg?hmac=pZrTO_F80X2VYUVpgorpj6xM_WABGhjIXYieK__8B50',
   },
   {
@@ -205,7 +205,7 @@ export const mockCancionesFavoritas: Cancion[] = [
     titulo: 'Purple',
     artista: 'Dontcry',
     duracion: '1:54',
-    imagenURL:
+    imagenUrl:
       'https://fastly.picsum.photos/id/152/200/200.jpg?hmac=jxm74qVoEmDIDdKJ1_I2QT6AhtYcq-KN75l_iotKiOw',
   },
   {
@@ -213,7 +213,7 @@ export const mockCancionesFavoritas: Cancion[] = [
     titulo: 'Flowers',
     artista: 'In Love With A Ghost',
     duracion: '4:13',
-    imagenURL:
+    imagenUrl:
       'https://fastly.picsum.photos/id/701/200/200.jpg?hmac=kPmkJLn8J5cv4wQc5yeM7iQpuoq405kTkMTzQ2hb9sM',
   },
   {
@@ -221,7 +221,7 @@ export const mockCancionesFavoritas: Cancion[] = [
     titulo: 'So_far',
     artista: 'Invention_',
     duracion: '2:04',
-    imagenURL:
+    imagenUrl:
       'https://fastly.picsum.photos/id/1022/200/200.jpg?hmac=MjK2sur6luq2UfxMPWBFBuPyvZYyYLYvQH9kCmEGJRY',
   },
   {
@@ -229,7 +229,7 @@ export const mockCancionesFavoritas: Cancion[] = [
     titulo: 'Transcend',
     artista: 'Evel Needle',
     duracion: '2:53',
-    imagenURL:
+    imagenUrl:
       'https://fastly.picsum.photos/id/1009/200/200.jpg?hmac=2D10SFaYliFjzL4jp_ZjLmZ1_2jaJw89CntiJGjdlGE',
   },
   {
@@ -237,7 +237,7 @@ export const mockCancionesFavoritas: Cancion[] = [
     titulo: 'Near Dark',
     artista: 'Bluewerks',
     duracion: '2:42',
-    imagenURL:
+    imagenUrl:
       'https://fastly.picsum.photos/id/497/200/200.jpg?hmac=pD3JCR-6DQCB69-sRAmzUn-m8I5V-ugaHUuCKh9gAFU',
   },
 ];
